@@ -1,3 +1,34 @@
-/build
-/lakefile.olean
-/lake-packages/*
+**/build
+**/out
+**/output
+**/.history
+
+#lean
+**/lakefile.olean
+**/lake-packages/*
+
+#jvm
+*.class
+**/*.log
+**/logs
+**/target/
+
+# gradle
+**/.gradle
+
+# VSCode
+**/.vscode/
+**/.scala_dependencies
+**/.worksheet
+
+# IntelliJ-IDEA
+**.iml
+**/.idea/
+**/.idea_modules/
+
+#Misc
+**/temp
+foo
+
+#aws key
+**/rootkey.csv
